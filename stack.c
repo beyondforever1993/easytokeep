@@ -4,9 +4,6 @@ extern "C" {
 
 #include <stdio.h>
 #include <stdlib.h>
-
-//add -finstrument-functions
-
 FILE *callgraph_fp = NULL;
 //int g_count;
 //#define DUMP(desp , func, call)  fprintf(fp ,"%s:%p:%p\n", desp , func , __builtin_return_address(1))
